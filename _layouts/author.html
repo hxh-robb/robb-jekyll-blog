@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1>{{ page.name }}</h1>
+<h3>{{ page.position }}</h3>
+<p>{{ content }}</p>
+<hr>
+<h1>Posts</h1>
+<ul>
+  {% assign matched_posts = site.posts | where: 'author', page.short_name %}
+  {% for post in matched_posts %}
+  <li>{{ post.title }}</li>
+  {% endfor %}
+</ul>

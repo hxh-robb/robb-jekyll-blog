@@ -1,7 +1,8 @@
 ---
 layout: post
-author: Robb
+author: robb
 title: Robb's first post!
+date: 2016-04-29 11:04 +0800
 ---
 This post is written by [{{ page.author }}], the title is [{{ page.title }}]
 

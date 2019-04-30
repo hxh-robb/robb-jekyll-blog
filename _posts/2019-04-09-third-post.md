@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Robb
+author: unknow
 ---
 This post is written by [{{ page.author }}], the title is [{{ page.title }}]
 

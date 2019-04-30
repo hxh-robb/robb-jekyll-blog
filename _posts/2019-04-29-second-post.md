@@ -1,8 +1,8 @@
 ---
 layout: post
-author: Robb
+author: robb
 ---
-This post is written by [{{ page.author }}], the title is [{{ page.title }}]
+This post is written by [{{ page.author | capitalize }}], the title is [{{ page.title }}]
 
 It's my first post on Jekyll, it's kind of cool!
 
