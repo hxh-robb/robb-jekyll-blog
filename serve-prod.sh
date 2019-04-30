@@ -16,4 +16,4 @@ type -t bundle > /dev/null || {
 }
 
 bundle install
-bundle exec jekyll serve
+JEKYLL_ENV=prod bundle exec jekyll serve
