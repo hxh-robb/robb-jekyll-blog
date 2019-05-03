@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/hxh-robb/hxh-robb.github.io.svg?branch=master)](https://travis-ci.org/hxh-robb/hxh-robb.github.io)
+[![Build Status](https://img.shields.io/travis/hxh-robb/hxh-robb.github.io/master.svg?label=master)](https://travis-ci.org/hxh-robb/hxh-robb.github.io)
 
 ---
 
