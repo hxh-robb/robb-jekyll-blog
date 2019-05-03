@@ -35,3 +35,4 @@
 
 # Resources
 * [Logo design for noob](https://logogeek.uk/logo-design/how-to-learn-logo-design-for-free/)
+* [Upgrade to GatsbyJS](https://www.gatsbyjs.org/blog/2018-2-27-why-i-upgraded-my-website-to-gatsbyjs-from-jekyll/)
