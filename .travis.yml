@@ -9,8 +9,7 @@ script: ./ci-build.sh
 
 branches:
   only:
-  - gh-pages
-  - /pages-(.*)/
+  - draft
 
 env:
   global:
