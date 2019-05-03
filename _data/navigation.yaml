@@ -6,5 +6,5 @@
   link: /blog.html
 - name: Staff
   link: /staff.html
-- name: 404
-  link: /404.html
+#- name: 404
+#  link: /404.html
