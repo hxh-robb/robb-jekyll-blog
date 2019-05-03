@@ -9,8 +9,9 @@ script: ./ci-build.sh
 
 branches:
   only:
-  - gh-pages
-  - /pages-(.*)/
+  #- gh-pages
+  #- /pages-(.*)/
+  - master
 
 env:
   global:
