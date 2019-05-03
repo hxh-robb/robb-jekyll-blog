@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/hxh-robb/hxh-robb.github.io.svg?branch=master)](https://travis-ci.org/hxh-robb/hxh-robb.github.io)
+
+---
+
 # Setup Jekyll
 * [Setup rvm](https://github.com/rvm/ubuntu_rvm)
 * [Update ruby by rvm(with rvmsudo)](https://tecadmin.net/install-ruby-on-rails-on-ubuntu/)
