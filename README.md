@@ -1,5 +1,5 @@
 [![Master build status](https://img.shields.io/travis/hxh-robb/hxh-robb.github.io/master.svg?label=master)](https://travis-ci.org/hxh-robb/hxh-robb.github.io)
-[![Draft build status](https://img.shields.io/travis/hxh-robb/hxh-robb.github.io/draft.svg?label=master)](https://travis-ci.org/hxh-robb/hxh-robb.github.io)
+[![Draft build status](https://img.shields.io/travis/hxh-robb/hxh-robb.github.io/draft.svg?label=draft)](https://travis-ci.org/hxh-robb/hxh-robb.github.io)
 ---
 
 # Setup Jekyll
