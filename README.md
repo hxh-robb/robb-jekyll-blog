@@ -12,16 +12,16 @@
 # Desgin
 
 * Catalogue
-    * Diary
+    * **Diary**
     * ToDo & Task management
-    * Books
+    * **Books**
     * Notes
     * Insights
     * Topics
-    * Showcases & Concept proofing
-    * Dog foods & Wheel reinventing
+    * **Showcases & Concept proofing**
+    * **Dog foods & Wheel reinventing**
     * Play4Fun
-    * Bio & CV
+    * **Bio & CV**
 
 ---
 
