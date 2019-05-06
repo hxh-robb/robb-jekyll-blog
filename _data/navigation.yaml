@@ -1,9 +1,9 @@
-- name: Home
-  link: /
+#- name: Home
+#  link: /
 - name: Blog
   link: /blog.html
 - name: About
-  link: /about.html
+  link: /authors/robb.html
 #- name: Staff
 #  link: /staff.html
 #- name: 404
