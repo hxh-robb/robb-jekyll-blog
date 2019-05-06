@@ -8,6 +8,9 @@ date: 2019-05-06 12:28 +0800
 * 2019-05-06 任务
   * IN PROGRESS:[Jekyll Tutorial](https://jekyllrb.com/tutorials/home/)
     * 15:15 - [4.Creating a Site](https://www.youtube.com/watch?v=pxua_1vyFck&index=4&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
+    * 16:10 - [5.Front Matter](https://www.youtube.com/watch?v=ZtEbGztktvc&index=5&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
+    * 17:07 - [6.Writing Posts](https://www.youtube.com/watch?v=gsYqPL9EFwQ&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=6)
+    * 17:17 - [7.Working With Drafts](https://www.youtube.com/watch?v=X8jXkW3k2Jg&index=7&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
   * TODO:[走读一下minina的代码](https://github.com/jekyll/minima)
   * 自定义主题设计草图
     * ![custom-theme-design](/assets/img/custom-theme-design.png)
