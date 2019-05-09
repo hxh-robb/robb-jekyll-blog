@@ -7,4 +7,4 @@ layout: default
 ---
 # Robb Tsang
 
-Shame on me, I'm a very lazy guy.
+Shame on me, I'm too lazy to face myself.
