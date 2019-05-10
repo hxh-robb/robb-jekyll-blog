@@ -33,14 +33,41 @@ date: 2019-05-08 14:14 +0800
 
     * 归并排序: O(n*lg n)
       ```js
-      /* TODO
-      The key operation of the merge sort algorithm is the merging of two sorted
-sequences in the “combine” step. We merge by calling an auxiliary procedure
-MERGE(A; p; q; r), where A is an array and p, q, and r are indices into the array
-such that p <= q < r. The procedure assumes that the subarrays A[p:q] and
-A[q+1:r] are in sorted order. It merges them to form a single sorted subarray
-that replaces the current subarray A[p:r].
-      */
+      function merge(array, p, q, r){
+        let left = [], right = [];
+        for(let i=p; i<q+1; i++){
+          left[i-p] = array[i];
+        }
+        for(let i=q+1; i<r+1; i++){
+          right[i-q-1] = array[i];
+        }
+        
+        for(i=p,j=0,k=0; ;i++){
+          if(j==left.length || left[j] > right[k]){  
+            array[i] = right[k];
+            k++;
+          } else {
+            array[i] = left[j];
+            j++;
+          }
+          
+          if(j==left.length && k==right.length){
+            break;
+          }
+        }
+      }
+      
+      function merge_sort(array, p, r){
+        if(p === undefined) p = 0;
+        if(r === undefined) r = array.length-1;
+        if(p < r){
+          // q=Math.floor((p+r)/2); // hoisting issue
+          let q=Math.floor((p+r)/2);
+          merge_sort(array, p, q);
+          merge_sort(array, (q+1), r);
+          merge(array,p,q,r);
+        }
+      }
       ```
 
 ---
