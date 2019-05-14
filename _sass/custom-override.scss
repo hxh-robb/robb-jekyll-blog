@@ -1,3 +1,4 @@
+
 .post-content {
   p {
     text-indent: 2em;
@@ -35,4 +36,41 @@ li {
   p {
     text-indent: 2em;
   }
+}
+
+.post-preview {
+  display:flex;
+  
+  img {
+    margin-right: 5px;
+    height: 1.5em;
+    align-self: center;
+  }
+  
+}
+
+p {
+  a {
+    margin-left:0.1em;
+    margin-right:0.1em;
+  }
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+  width: -webkit-calc(75vw - #{$content-width} - (#{$spacing-unit} * 2));
+  width:         calc(75vw - #{$content-width} - (#{$spacing-unit} * 2));
+  min-width: 90px;
+  text-align: center;
+  vertical-align: middle;
+  max-height: 56px;
+  
+  img {
+    max-height: inherit;
+  }
+}
+
+.rss-subscribe {
+  margin-bottom: 0em;
 }
