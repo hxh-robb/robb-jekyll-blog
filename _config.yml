@@ -16,7 +16,9 @@
 title: Robb Tsang
 email: hxh.robb@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  robb的个人网站, 日常技术总结及经验分享
+  robb的日常技术总结及经验分享
+  
+  ![CC](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/25px-Cc.logo.circle.svg.png) ![BY](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cc-by_new.svg/25px-Cc-by_new.svg.png) 欢迎转载
 #baseurl: "hxh-robb.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hxh_robb
