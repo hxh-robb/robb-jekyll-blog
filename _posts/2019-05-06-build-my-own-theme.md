@@ -2,8 +2,25 @@
 title: Jekyll自定义主题制作历程
 author: robb
 date: 2019-05-06 12:28 +0800
+ing: true
 ---
 刚部署起来的Blog还未引用任何主题, 显得空荡荡的; 在Jekyll官网上推荐了许多风格不错的主题, 但我还是打算基于官方提供的默认主题minima制作一个自定义的主题来练手, 其实也是为了学习Jekyll, 希望这个任务可以控制在一个星期完成; 等对Jekyll有一定程度的了解后再开始引用和学习别人制作的主题;
+
+---
+
+## TO BE CONTINUED
+* 实现步骤
+  * minima主题
+    * 应用minima至无主题Jekyll网站
+    * 调整minima参数
+    * 增加自定义样式
+    * 增加自定义页面
+  * 自定义主题
+    * TODO
+
+---
+
+## 进度回顾
 
 * 2019-05-06
   * IN PROGRESS:[Jekyll Tutorial](https://jekyllrb.com/tutorials/home/)
@@ -24,6 +41,7 @@ date: 2019-05-06 12:28 +0800
     * 后续章节与 [Step by Step](https://jekyllrb.com/docs/step-by-step/01-setup/) 类似, 跳过;
   * IN PROGRESS:基于 [minina](https://github.com/jekyll/minima), 实现草图原型
 
----
-
-**TO BE CONTINUED**
+* 2019-05-08 ~ 2019-05-14
+  * 应用minima主题;
+  * 自定义样式(_sass/custom-override.scss);
+  * 切换markdown风格至CommonMarkGhPages, 以友好支持details标签;

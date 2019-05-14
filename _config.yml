@@ -21,6 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hxh_robb
 github_username:  hxh-robb
+show_excerpts: true
 
 # Build settings
 #markdown: kramdown
@@ -52,4 +53,4 @@ defaults:
       layout: "post"
 
 # Setting for Travis-CI
-exclude: [vendor]
+exclude: [vendor, "*.old"]
