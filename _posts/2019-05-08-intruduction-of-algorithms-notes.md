@@ -2,7 +2,7 @@
 title: 算法导论笔记
 author: robb
 date: 2019-05-08 14:14 +0800
-ing: true
+ongoing: true
 ---
 无论从面试这种短期目标, 还是从切实提高自己水平的长期愿望, 都应该阅读算法导论这本书, 希望自己可以从数学层面就开始深刻理解这本书, 1000多页的长期战;
 
@@ -130,7 +130,7 @@ function merge_sort(array, p, r){
 </details>
 
 ---
-## 资源
+## 参考资源
 
 * [算法笔记(国立台湾师范大学)](http://www.csie.ntnu.edu.tw/~u91029/)
 * [Selection Sort Vs Insertion Sort](https://cheetahonfire.blogspot.com/2009/05/selection-sort-vs-insertion-sort.html)
