@@ -5,6 +5,4 @@ position: Lazy guy
 title: BIO
 layout: default
 ---
-# Robb Tsang
-
-Shame on me, I'm too lazy to face myself.
+Shame on my laziness!
