@@ -36,3 +36,25 @@ li {
     text-indent: 2em;
   }
 }
+
+.post-preview {
+  display:flex;
+  
+  img {
+    margin-right: 5px;
+    height: 1.5em;
+    align-self: center;
+  }
+  
+}
+
+p {
+  a {
+    margin-left:0.1em;
+    margin-right:0.1em;
+  }
+}
+
+.rss-subscribe {
+  margin-bottom: 0em;
+}

@@ -1,5 +1,5 @@
 ---
-title: 算法导论阅读笔记
+title: 算法导论笔记
 author: robb
 date: 2019-05-08 14:14 +0800
 ing: true
