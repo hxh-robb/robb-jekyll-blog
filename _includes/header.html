@@ -1,11 +1,12 @@
 <header class="site-header" role="banner">
-
+  <div class="logo">
+      <img src="/assets/img/rt-black.png" alt="{{ site.title | escape }}" />
+  </div>
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
       <!-- {{ site.title | escape }} -->
-      <!-- <img src="/assets/img/rt-black.png" alt="{{ site.title | escape }}"  height="60" /> -->
       HOME
     </a>
 
