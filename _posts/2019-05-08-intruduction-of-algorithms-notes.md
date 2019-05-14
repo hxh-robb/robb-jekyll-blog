@@ -130,7 +130,7 @@ function merge_sort(array, p, r){
 </details>
 
 ---
-## 资源
+## 参考资源
 
 * [算法笔记(国立台湾师范大学)](http://www.csie.ntnu.edu.tw/~u91029/)
 * [Selection Sort Vs Insertion Sort](https://cheetahonfire.blogspot.com/2009/05/selection-sort-vs-insertion-sort.html)

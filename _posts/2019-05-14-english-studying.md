@@ -9,3 +9,8 @@ ongoing: true
 ---
 
 ## TODO
+
+---
+
+## 参考资源
+* [How to Describe Your Personality in English](https://www.speakconfidentenglish.com/describe-your-personality-english/)
