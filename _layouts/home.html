@@ -18,7 +18,7 @@ layout: default
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3 class="post-preview">
           {% if post.ing == true %}
-            <img src="/assets/img/ongoing.png">
+            <img src="/assets/img/ongoing.png" alt="Ongoing">
           {%- endif -%}
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
