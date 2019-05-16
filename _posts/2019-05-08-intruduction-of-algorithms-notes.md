@@ -86,7 +86,7 @@ function merge(array, p, q, r){
     right[i-q-1] = array[i];
   }
   
-  for(i=p,j=0,k=0; ;i++){
+  for(let i=p, j=0, k=0; ;i++){
     if(j==left.length || left[j] > right[k]){  
       array[i] = right[k];
       k++;
@@ -123,6 +123,14 @@ function merge_sort(array, p, r){
 
 <details>
   <summary>归并插入排序</summary>
+
+```js
+// TODO
+```
+</details>
+
+<details>
+  <summary>二分查找有序数组</summary>
 
 ```js
 // TODO
