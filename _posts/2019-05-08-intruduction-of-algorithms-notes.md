@@ -6,6 +6,8 @@ ongoing: true
 ---
 无论从面试这种短期目标, 还是从切实提高自己水平的长期愿望, 都应该阅读算法导论这本书, 希望自己可以从数学层面就开始深刻理解这本书, 1000多页的长期战;
 
+2019-05-16:在跳读完前三章的内容后(完全没看习题部分), 觉得自己的数学程度尚未可以完全理解这本书, 后面还要恶补数学基础; 目前不解或觉得晦涩的内容, 还是先以似懂非懂的态度读至第五部分, 第二次再以数学严谨的态度仔细研读并解答课后习题;
+
 ---
 
 ## 笔记及总结
@@ -130,7 +132,29 @@ function merge_sort(array, p, r){
 </details>
 
 <details>
-  <summary>二分查找有序数组</summary>
+  <summary>线性检索有序数组</summary>
+
+```js
+// TODO
+```
+</details>
+
+<details>
+  <summary>二分法检索有序数组</summary>
+
+```js
+// TODO
+```
+</details>
+
+#### 第3章:Growth of Functions
+
+TODO
+
+#### 第4章:Divide-and-Conquer
+
+<details>
+  <summary>穷举法寻找最大子数组</summary>
 
 ```js
 // TODO
@@ -143,3 +167,4 @@ function merge_sort(array, p, r){
 * [算法笔记(国立台湾师范大学)](http://www.csie.ntnu.edu.tw/~u91029/)
 * [Selection Sort Vs Insertion Sort](https://cheetahonfire.blogspot.com/2009/05/selection-sort-vs-insertion-sort.html)
 * [辛未羊的博客 - 数据结构](https://panqiincs.me/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/)
+* [Facebook工程师的阅读建议](https://www.quora.com/What-should-I-know-from-the-CLRS-3rd-edition-book-if-my-aim-is-to-get-into-Google#)

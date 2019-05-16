@@ -8,7 +8,35 @@ ongoing: true
 
 ---
 
-## TODO
+## Session 01 - Personality Trait(2019-05-11)
+
+<details>
+  <summary>Vocabulary</summary>
+
+TODO
+
+</details>
+<details>
+  <summary>Homework</summary>
+
+TODO
+
+</details>
+
+## Session 02 - Money & Finance(2019-05-15)
+
+<details>
+  <summary>Vocabulary</summary>
+
+TODO
+
+</details>
+<details>
+  <summary>Homework</summary>
+
+TODO
+
+</details>
 
 ---
 
