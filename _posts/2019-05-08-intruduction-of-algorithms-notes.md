@@ -10,6 +10,17 @@ ongoing: true
 
 ---
 
+<!-- snippet
+#### <Chapter Title>
+<details>
+  <summary>topic title</summary>
+
+```js
+// TODO
+```
+</details>
+-->
+
 ## 笔记及总结
 
 ### 第一部分:基础(Fundations)
@@ -57,6 +68,13 @@ ongoing: true
 </details>
 
 #### 第2章:Getting Started
+
+**本章研讨的主题**
+
+> 数组排序
+
+> 算法的效率评估
+
 <details>
   <summary>插入排序</summary>
 
@@ -149,12 +167,32 @@ function merge_sort(array, p, r){
 
 #### 第3章:Growth of Functions
 
+**本章研讨的主题**
+
+> 渐进符号
+
+> 后续章节将会用到的数学工具及概念
+
 TODO
 
 #### 第4章:Divide-and-Conquer
 
+**本章研讨的主题**
+
+> 寻找最大子数组
+
+> 矩阵相乘
+
 <details>
   <summary>穷举法寻找最大子数组</summary>
+
+```js
+// TODO
+```
+</details>
+
+<details>
+  <summary>归并法寻找最大子数组</summary>
 
 ```js
 // TODO
