@@ -83,7 +83,7 @@ TODO: 代码增加解读注释
   <summary>插入排序</summary>
 
 ```js
-//in-place, O(n)
+//in-place, O(n^2)
 function insertion_sort(array, first_index, last_index){
   if(first_index === undefined){
     first_index = 0;
@@ -199,7 +199,7 @@ function merge_insertion_sort(array, p, r){
 
 > 后续章节将会用到的数学工具及概念
 
-<span style="color:red"> **TODO **</span>
+<span style="color:red">** TODO **</span>
 
 #### 第4章:Divide-and-Conquer
 
@@ -208,6 +208,8 @@ function merge_insertion_sort(array, p, r){
 > 寻找最大子数组
 
 > 矩阵相乘
+
+> 分治法递归式运行效率的评估方法
 
 <details>
   <summary>穷举法寻找最大子数组</summary>
