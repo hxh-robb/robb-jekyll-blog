@@ -199,7 +199,7 @@ function merge_insertion_sort(array, p, r){
 
 > 后续章节将会用到的数学工具及概念
 
-TODO
+<span style="color:red"> **TODO **</span>
 
 #### 第4章:Divide-and-Conquer
 
