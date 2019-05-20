@@ -14,7 +14,7 @@ tag: showcase
 
 我一直使用的英语辞典工具是Chrome的应用插件[OALD7](https://chrome.google.com/webstore/detail/oald-7-牛津高阶第七版/adodeopedjkoofdbblibackjdklbnepe), 该应用的作者依照牛津高阶中英词典整理了包含五万多个单词条目的明文数据文件, 一行一个单词, 其中包含了单词的性质和例句; 因为是基于html的明文文件, 内容充实且结构分明, 可以简单地通过编写脚本来解析处理作二次加工, 正好符合我的需要;
 
-我直接到Chrome的目录将这些文件拷出来:
+### 拷贝词库数据文件(Bash)
 ```bash
 #### 拷贝OALD7的数据文件 ####
 # OALD7数据文件所在目录
@@ -22,7 +22,80 @@ cd ~/.config/google-chrome/Default/Extensions/adodeopedjkoofdbblibackjdklbnepe/2
 # 将所有文件集中输出到的单个文件
 cat *.dat > /tmp/vocabulary.data
 ```
+### 分析数据文件样式
+<table>
+  <thead>
+    <tr>
+      <th>样式</th>
+      <th>含义</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>od_d</td>
+      <td>英文释义</td>
+    </tr>
+    <tr>
+      <td>od_x</td>
+      <td>英文例句</td>
+    </tr>
+    <tr>
+      <td>od_chn</td>
+      <td>中文翻译</td>
+    </tr>
+  </tbody>
+</table>
 
-**TODO:** 后续再分析一下单词条目的组成结构, 写一些脚本解构它们适配成Jekyll的yaml数据文件, 作为这个听写小工具的数据基础;
+### 解析数据文件(Python)
+```python
+import re
+from BeautifulSoup import BeautifulSoup as bs
+
+fname='/tmp/dictionary.data' ## Point to actual file path
+with open(fname) as f:
+  for line in f:
+    soup = bs(line)
+    spans = soup.findAll("span",{"class":"oa_chn"})
+    
+    word = soup.find(text=True, recursive=False) ## word entry
+    #print('- entry: "%s"' % (word.strip())) ## yaml style 1
+    #print('  sentences:') ## yaml style 1
+    print('"%s":' % (word.strip())) ## yaml style 2
+    for span in spans:
+      en = span.parent
+      try:
+        if en['class'] == 'oa_x':
+          chns = en.findAll('span', {'class':'oa_chn'})
+          for chn in chns:
+            chn.decompose() ## remove Chinese translation
+          sentence = en.getText(separator=u' ') ## sentences
+          sentence = re.sub(r"\(.*\)", "", sentence)
+          sentence = re.sub(r"  ", " ", sentence)
+          #print('    - "%s"' % (sentence)) ## yaml style 1
+          print('  - "%s"' % (sentence)) ## yaml style 2
+      except Exception as e:
+        #print('found error:eh-oh')
+        #print(e)
+        pass
+```
+
+### 生成yaml格式数据文件(Bash)
+
+```bash
+python test.py > /tmp/words.yaml &
+tail -f /tmp/words.yaml
+```
+
+### 单词数据js文件(Liquid/Jekyll)
+```{% raw %}liquid
+---
+---
+const words = {{ site.data.words | jsonify }}
+{% endraw %}```
+
+基于yaml格式数据文件生成的[单词例句JS文件](/assets/js/words.js)
+
+---
 
 ## TODO
+

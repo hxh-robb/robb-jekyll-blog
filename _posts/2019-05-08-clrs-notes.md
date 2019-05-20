@@ -83,7 +83,7 @@ TODO: 代码增加解读注释
   <summary>插入排序</summary>
 
 ```js
-//in-place, O(n)
+//in-place, O(n^2)
 function insertion_sort(array, first_index, last_index){
   if(first_index === undefined){
     first_index = 0;
@@ -199,7 +199,7 @@ function merge_insertion_sort(array, p, r){
 
 > 后续章节将会用到的数学工具及概念
 
-TODO
+<span style="color:red">** TODO **</span>
 
 #### 第4章:Divide-and-Conquer
 
@@ -208,6 +208,8 @@ TODO
 > 寻找最大子数组
 
 > 矩阵相乘
+
+> 分治法递归式运行效率的评估方法
 
 <details>
   <summary>穷举法寻找最大子数组</summary>
@@ -232,3 +234,4 @@ TODO
 * [Selection Sort Vs Insertion Sort](https://cheetahonfire.blogspot.com/2009/05/selection-sort-vs-insertion-sort.html)
 * [辛未羊的博客 - 数据结构](https://panqiincs.me/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/)
 * [Facebook工程师的阅读建议](https://www.quora.com/What-should-I-know-from-the-CLRS-3rd-edition-book-if-my-aim-is-to-get-into-Google#)
+* [某自雇开发者的阅读建议](https://qr.ae/TWNOMr)
