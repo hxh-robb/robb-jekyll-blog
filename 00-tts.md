@@ -3,10 +3,12 @@ title: 单词听写
 en_title: TTS
 layout: default
 ---
+<script src="//code.responsivevoice.org/responsivevoice.js?key=y9mpza5r"></script>
 <script src="/assets/js/words.js"></script>
 <script>
-  console.log('hello, world')
-  console.log(words['A'])
+  let word = 'ambitious';
+  responsiveVoice.speak(word);
+  responsiveVoice.speak(words[word][0]);
 </script>
 
 ## Alex's lessons
