@@ -1,5 +1,6 @@
 ---
-title: TTS
+title: 单词听写
+en_title: TTS
 layout: default
 ---
 <script src="/assets/js/words.js"></script>
@@ -8,7 +9,7 @@ layout: default
   console.log(words['A'])
 </script>
 
-## Alex's sessions
+## Alex's lessons
 <div class="tts-div">
   <span>
     {prompt message here}
