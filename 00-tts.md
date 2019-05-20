@@ -6,7 +6,7 @@ layout: default
 <script src="//code.responsivevoice.org/responsivevoice.js?key=y9mpza5r"></script>
 <script src="/assets/js/words.js"></script>
 <script>
-  function test(){
+  function testTTS(){
     let word = 'ambitious';
     responsiveVoice.speak(word);
     responsiveVoice.speak(words[word][0]);
@@ -14,7 +14,7 @@ layout: default
 </script>
 
 <div class="tts-div">
-  <input type="button" value="Test" onclick="test"></input>
+  <input type="button" value="Test" onclick="javascript:testTTS()"></input>
 </div>
 
 ---
