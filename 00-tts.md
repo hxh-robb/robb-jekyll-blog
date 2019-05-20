@@ -6,11 +6,18 @@ layout: default
 <script src="//code.responsivevoice.org/responsivevoice.js?key=y9mpza5r"></script>
 <script src="/assets/js/words.js"></script>
 <script>
-  let word = 'ambitious';
-  responsiveVoice.speak(word);
-  responsiveVoice.speak(words[word][0]);
+  function test(){
+    let word = 'ambitious';
+    responsiveVoice.speak(word);
+    responsiveVoice.speak(words[word][0]);
+  }
 </script>
 
+<div class="tts-div">
+  <input type="button" value="Test" onclick="test"></input>
+</div>
+
+---
 ## Alex's lessons
 <div class="tts-div">
   <span>
