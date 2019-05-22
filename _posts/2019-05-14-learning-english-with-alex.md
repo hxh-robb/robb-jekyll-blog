@@ -9,7 +9,9 @@ tag: english
 
 ---
 
-## Session 01 - Personality Trait(2019-05-11)
+## Personality Traits
+
+2019-05-11
 
 <details>
   <summary>Vocabulary</summary>
@@ -24,7 +26,60 @@ TODO
 
 </details>
 
-## Session 02 - Money & Finance(2019-05-15)
+## Money & Finance
+
+2019-05-15
+
+<details>
+  <summary>Vocabulary</summary>
+
+TODO
+
+</details>
+<details>
+  <summary>Homework</summary>
+
+TODO
+
+</details>
+
+## Food & Restaurant | Grammar
+
+2019-05-19
+
+<details>
+  <summary>Vocabulary</summary>
+
+TODO
+
+</details>
+<details>
+  <summary>Homework</summary>
+
+TODO
+
+</details>
+
+## Symptoms & Diseases
+
+2019-05-21
+
+<details>
+  <summary>Vocabulary</summary>
+
+TODO
+
+</details>
+<details>
+  <summary>Homework</summary>
+
+TODO
+
+</details>
+
+## [TODO]
+
+2019-05-23
 
 <details>
   <summary>Vocabulary</summary>
@@ -43,3 +98,5 @@ TODO
 
 ## 参考资源
 * [How to Describe Your Personality in English](https://www.speakconfidentenglish.com/describe-your-personality-english/)
+* [Past Continuous](https://www.englishpage.com/verbpage/pastcontinuous.html)
+* [Pronounciation of "ed"](https://www.grammar.cl/english/pronunciation-ed.htm)

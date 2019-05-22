@@ -12,4 +12,4 @@ tag: math
 
 ---
 ## 参考资源
-[3B1B](https://www.3blue1brown.com)
+[3Blue1Brown](https://www.3blue1brown.com)
