@@ -72,6 +72,7 @@ with open(fname) as f:
           sentence = re.sub(r"\(.*\)", "", sentence)
           sentence = re.sub(r"  ", " ", sentence)
           #print('    - "%s"' % (sentence)) ## yaml style 1
+          #sentence r"\$.*\;" ## unicode punctuation
           print('  - "%s"' % (sentence)) ## yaml style 2
       except Exception as e:
         #print('found error:eh-oh')
@@ -80,7 +81,6 @@ with open(fname) as f:
 ```
 
 ### 生成yaml格式数据文件(Bash)
-
 ```bash
 python test.py > _data/oald7_words.yaml &
 tail -f _data/oald7_words.yaml
@@ -96,9 +96,9 @@ const words = {{ site.data.words | jsonify }}
 基于yaml格式数据文件生成的[单词例句JS文件](/assets/js/oald7-words.js)
 
 ---
-## 界面设计及控件处理流程
+## 处理流程
 
-TODO
+![处理流程](/assets/img/tts-tool-design.png)
 
 ---
 ## 第三方依赖
