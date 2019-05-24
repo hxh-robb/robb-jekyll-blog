@@ -101,3 +101,4 @@ TODO
 * [How to Describe Your Personality in English](https://www.speakconfidentenglish.com/describe-your-personality-english/)
 * [Past Continuous](https://www.englishpage.com/verbpage/pastcontinuous.html)
 * [Pronounciation of "ed"](https://www.grammar.cl/english/pronunciation-ed.htm)
+* [Pronounciation of "s"](https://www.grammar.cl/english/pronunciation-final-s.htm)
