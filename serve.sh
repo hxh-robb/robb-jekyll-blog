@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-export _ENTRY=$(readlink -f "$0")
+#export _ENTRY=$(readlink -f "$0")
+export _ENTRY=$(realpath "$0")
 export _HOME=$(dirname "${_ENTRY}")
 cd "${_HOME}"
 
