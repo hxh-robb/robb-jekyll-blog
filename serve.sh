@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-export _ENTRY=$(readlink -f "$0")
+#export _ENTRY=$(readlink -f "$0")
+export _ENTRY=$(realpath "$0")
 export _HOME=$(dirname "${_ENTRY}")
 cd "${_HOME}"
 
@@ -16,4 +17,4 @@ type -t bundle > /dev/null || {
 }
 
 bundle install
-bundle exec jekyll serve
+bundle exec jekyll serve --host 0.0.0.0 --port 80
