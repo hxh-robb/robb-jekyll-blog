@@ -42,9 +42,9 @@
                     <integer>1440</integer>
                 </dict>
                 <key>LocalIdentifier</key>
-                <string>phone</string>
+                <string>desktop</string>
                 <key>PayloadCertificateUUID</key>
-                <string>E69790EF-4B43-515C-8AB0-1858C01EDD51</string>
+                <string>81F3CA05-AA9C-5701-9B1F-F3BF0AD28960</string>
                 <key>CertificateType</key>
                 <string>ECDSA384</string>
                 <key>ServerCertificateIssuerCommonName</key>
@@ -66,11 +66,11 @@
             <key>PayloadDisplayName</key>
             <string>algo</string>
             <key>PayloadIdentifier</key>
-            <string>com.apple.vpn.managed.34709669-83F4-51DD-8738-CF1F20FEC8D8</string>
+            <string>com.apple.vpn.managed.6EAF09DD-1214-535E-AAFA-61EAA2E21EA5</string>
             <key>PayloadType</key>
             <string>com.apple.vpn.managed</string>
             <key>PayloadUUID</key>
-            <string>34709669-83F4-51DD-8738-CF1F20FEC8D8</string>
+            <string>6EAF09DD-1214-535E-AAFA-61EAA2E21EA5</string>
             <key>PayloadVersion</key>
             <real>1</real>
             <key>Proxies</key>
@@ -89,21 +89,21 @@
             <key>Password</key>
             <string>4E11GjYl</string>
             <key>PayloadCertificateFileName</key>
-            <string>phone.p12</string>
+            <string>desktop.p12</string>
             <key>PayloadContent</key>
             <data>
-            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
+            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
             </data>
             <key>PayloadDescription</key>
             <string>Adds a PKCS#12-formatted certificate</string>
             <key>PayloadDisplayName</key>
             <string>algo</string>
             <key>PayloadIdentifier</key>
-            <string>com.apple.security.pkcs12.E69790EF-4B43-515C-8AB0-1858C01EDD51</string>
+            <string>com.apple.security.pkcs12.81F3CA05-AA9C-5701-9B1F-F3BF0AD28960</string>
             <key>PayloadType</key>
             <string>com.apple.security.pkcs12</string>
             <key>PayloadUUID</key>
-            <string>E69790EF-4B43-515C-8AB0-1858C01EDD51</string>
+            <string>81F3CA05-AA9C-5701-9B1F-F3BF0AD28960</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
         </dict>
@@ -119,11 +119,11 @@
             <key>PayloadDisplayName</key>
             <string>algo</string>
             <key>PayloadIdentifier</key>
-            <string>com.apple.security.root.913193A0-2B1B-5616-8E94-E2BF180021E6</string>
+            <string>com.apple.security.root.00821A42-AC22-5B78-B4B7-3C65DADF7740</string>
             <key>PayloadType</key>
             <string>com.apple.security.root</string>
             <key>PayloadUUID</key>
-            <string>913193A0-2B1B-5616-8E94-E2BF180021E6</string>
+            <string>00821A42-AC22-5B78-B4B7-3C65DADF7740</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
         </dict>
@@ -131,7 +131,7 @@
     <key>PayloadDisplayName</key>
     <string>AlgoVPN algo IKEv2</string>
     <key>PayloadIdentifier</key>
-    <string>donut.local.F6E51E9F-A1F2-5210-8555-094E87814FAC</string>
+    <string>donut.local.C7CDD7B9-4C70-5EB5-8CEF-5D2DC4A7653C</string>
     <key>PayloadOrganization</key>
 	<string>AlgoVPN</string>
     <key>PayloadRemovalDisallowed</key>
@@ -139,7 +139,7 @@
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>B4D5CCC9-00A9-568A-99C0-D1CF586E5D8C</string>
+    <string>D7671A27-BB80-5152-B355-348D2D6F7409</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>

@@ -17,4 +17,4 @@ type -t bundle > /dev/null || {
 }
 
 bundle install
-bundle exec jekyll serve
+bundle exec jekyll serve --host 0.0.0.0 --port 80
