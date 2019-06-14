@@ -6,8 +6,9 @@ ongoing: true
 tag: showcase
 published: false
 ---
-## TODO:Algo
-##TODO:ShadowSocks
+## TODO:AWS IAM Settings
+## TODO:Algo Deployment
+## TODO:ShadowSocks
 
 ---
 TODO

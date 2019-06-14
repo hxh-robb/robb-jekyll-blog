@@ -105,6 +105,18 @@ p {
   }
 }
 
-.tts-wrapper {
-  margin-bottom: 15px
+.tts-player, .tts-btns, .tts-words .tts-sentences {
+  margin-bottom: 5px;
+  ul {
+    margin-bottom: 5px;
+  }
+
+  .tts-item-highlight {
+    color:red;
+  }
+}
+
+.tts-vocabulary{
+  margin-top: -15px;
+  margin-bottom: 5px;
 }

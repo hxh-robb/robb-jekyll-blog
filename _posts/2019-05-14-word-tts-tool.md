@@ -2,7 +2,7 @@
 title: 制作单词听写工具
 author: robb
 date: 2019-05-14 11:40 +0800
-ongoing: false
+#ongoing: false
 tag: showcase
 ---
 学习新单词时, 有必要在课后做听写练习, 因此打算通过调用[第三方提供的tts服务](https://responsivevoice.org/)来实现一个[单词听写页面](/00-tts.html);
@@ -82,7 +82,7 @@ with open(fname) as f:
 
 ### 生成yaml格式数据文件(Bash)
 ```bash
-python test.py > _data/oald7_words.yaml &
+python fetch-words.py > _data/oald7_words.yaml &
 tail -f _data/oald7_words.yaml
 ```
 
@@ -90,7 +90,7 @@ tail -f _data/oald7_words.yaml
 ```{% raw %}liquid
 ---
 ---
-const words = {{ site.data.words | jsonify }}
+const words = {{ site.data.oald7_words | jsonify }}
 {% endraw %}```
 
 基于yaml格式数据文件生成的[单词例句JS文件](/assets/js/oald7-words.js)
