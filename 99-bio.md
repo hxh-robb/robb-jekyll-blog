@@ -7,3 +7,5 @@ en_title: BIO
 layout: default
 ---
 Shame on my laziness!
+
+TODO:[json resume](https://jsonresume.org/)
