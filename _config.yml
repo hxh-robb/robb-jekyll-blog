@@ -30,6 +30,10 @@ show_excerpts: true
 markdown: CommonMarkGhPages
 theme: minima
 plugins:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
   - jekyll-feed
 
 # Exclude from processing.

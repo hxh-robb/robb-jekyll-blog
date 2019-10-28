@@ -1,3 +1,7 @@
+[![Master build status](https://img.shields.io/travis/hxh-robb/hxh-robb.github.io/master.svg?label=master)](https://travis-ci.org/hxh-robb/hxh-robb.github.io)
+[![Draft build status](https://img.shields.io/travis/hxh-robb/hxh-robb.github.io/draft.svg?label=draft)](https://travis-ci.org/hxh-robb/hxh-robb.github.io)
+---
+
 # Setup Jekyll
 * [Setup rvm](https://github.com/rvm/ubuntu_rvm)
 * [Update ruby by rvm(with rvmsudo)](https://tecadmin.net/install-ruby-on-rails-on-ubuntu/)
@@ -8,16 +12,16 @@
 # Desgin
 
 * Catalogue
-    * Diary
+    * **Diary**
     * ToDo & Task management
-    * Books
+    * **Books**
     * Notes
     * Insights
     * Topics
-    * Showcases & Concept proofing
-    * Dog foods & Wheel reinventing
+    * **Showcases & Concept proofing**
+    * **Dog foods & Wheel reinventing**
     * Play4Fun
-    * Bio & CV
+    * **Bio & CV**
 
 ---
 
@@ -31,3 +35,4 @@
 
 # Resources
 * [Logo design for noob](https://logogeek.uk/logo-design/how-to-learn-logo-design-for-free/)
+* [Upgrade to GatsbyJS](https://www.gatsbyjs.org/blog/2018-2-27-why-i-upgraded-my-website-to-gatsbyjs-from-jekyll/)
