@@ -232,6 +232,6 @@ function merge_insertion_sort(array, p, r){
 
 * [算法笔记(国立台湾师范大学)](http://www.csie.ntnu.edu.tw/~u91029/)
 * [Selection Sort Vs Insertion Sort](https://cheetahonfire.blogspot.com/2009/05/selection-sort-vs-insertion-sort.html)
-* [辛未羊的博客 - 数据结构](https://panqiincs.me/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/)
+* [辛未羊的博客 - 数据结构](https://panqiincs.me/categories/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/)
 * [Facebook工程师的阅读建议](https://www.quora.com/What-should-I-know-from-the-CLRS-3rd-edition-book-if-my-aim-is-to-get-into-Google#)
 * [某自雇开发者的阅读建议](https://qr.ae/TWNOMr)
