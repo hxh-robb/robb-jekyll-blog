@@ -1,4 +1,5 @@
-/* ***** 3rd Party TTS API ***** */
+/* ***** 3rd Party TextToSpeech API(ResponsiveVoice) ***** */
+
 function sleep(ms) {
   return new Promise(res => setTimeout(res, ms));
 }
@@ -11,19 +12,6 @@ function speak(text){
   responsiveVoice.speak(text,voice);
   voice = voice === UKM ? UKF : UKM;
 }
-
-// async function play(word,interval) {
-//   speak(word);
-//   if(oald7[word]){
-//     let idx = 1;
-//     for (let sentence of oald7[word]) {
-//       await sleep(interval ? interval : 6000);
-//       speak(sentence);
-//       document.getElementsByClassName("prompt")[0].innerText = `${idx}/${oald7[word].length}`;
-//       idx++;
-//     }
-//   }
-// }
 
 /* ***** "View" functions ***** */
 
@@ -85,6 +73,7 @@ function renderSentenceList(list){
 }
 
 /* ***** "Model" functions ***** */
+// TODO:custom dictionary other than oald7
 
 const MAX_SENTENCE_COUNT = 3;
 const WORD_LIST = [], SENTENCE_LIST = [];
@@ -183,6 +172,7 @@ function vocabularyButtonOnClick(evt){
 }
 
 async function startTestOnClick(evt){
+  let t1 = Date.now();
   toggleButtons();
   // ------
   cursorReset();
@@ -196,6 +186,7 @@ async function startTestOnClick(evt){
   }
   // ------
   toggleButtons();
+  console.log(`used time:${((Date.now() - t1) / 60000).toFixed(2)} mins`);
 }
 
 async function oneByOneOnClick(evt){
@@ -234,10 +225,10 @@ async function replaySentenceOnClick(evt){
   toggleButtons();
 }
 
-/* ***** Init ***** */
+/* ***** Initialization ***** */
 
 window.onload = function (evt){
-  // Init UI
+  // ui rendering
   renderAll();
 
   // "onclick" event binding
@@ -249,6 +240,6 @@ window.onload = function (evt){
 
   document.querySelector("input[type=button][value='Start Test']").onclick = startTestOnClick;
   document.querySelector("input[type=button][value='One By One']").onclick = oneByOneOnClick;
-  document.querySelector("input[type=button][value='Start Test']").onclick = startTestOnClick;
-  document.querySelector("input[type=button][value='Start Test']").onclick = startTestOnClick;
+  document.querySelector("input[type=button][value='Replay Word']").onclick = replayWordOnClick;
+  document.querySelector("input[type=button][value='Replay Sentence']").onclick = replaySentenceOnClick;
 };
